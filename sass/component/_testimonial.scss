@@ -1,0 +1,96 @@
+@import "../variable/color";
+
+.testimonial {
+  padding-top: 100px;
+
+  .testi-body {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+
+    .text {
+      padding: 100px 110px;
+      text-align: center;
+
+      .common-title {
+        h2 {
+          color: $white;
+        }
+      }
+
+      i {
+        color: $themeColor;
+        font-size: 56px;
+      }
+
+      p {
+        padding-top: 30px;
+        color: $white;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .person {
+        .person-img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          margin: 30px auto 30px;
+          overflow: hidden;
+
+          img {
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+          }
+        }
+
+        .person-text {
+          h4 {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $white;
+            padding-bottom: 10px;
+          }
+
+          span {
+            color: $secondaryColor;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    ul {
+      margin-top: 20px;
+
+      li {
+        display: inline-block;
+
+        button {
+          font-size: 0;
+          width: 10px;
+          height: 10px;
+          background-color: rgba(245, 32, 37, 0.3);
+          border-radius: 50%;
+          border: 0;
+          margin: 0 5px;
+          transition: all linear .3s;
+        }
+      }
+
+      li.slick-active {
+        button {
+          background-color: $themeColor;
+          width: 30px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+}

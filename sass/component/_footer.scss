@@ -1,0 +1,167 @@
+@import "../variable/color";
+
+footer {
+  background-color: $black;
+  padding: 80px 0 30px 0;
+
+  .footer-title {
+    padding-bottom: 30px;
+
+    h4 {
+      color: $white;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  .footer-about {
+    p {
+      padding-right: 80px;
+      color: $white;
+      padding-bottom: 30px;
+    }
+
+    ul {
+      li {
+        display: inline-block;
+
+        a {
+          color: $white;
+          width: 35px;
+          height: 35px;
+          background-color: transparent;
+          text-align: center;
+          line-height: 35px;
+          font-size: 14px;
+          border-radius: 3px;
+          margin-right: 6px;
+
+          &:hover {
+            color: $white;
+          }
+        }
+      }
+
+      li:first-child {
+        a {
+          background-color: #4267B2;
+        }
+      }
+
+      li:nth-child(2) {
+        a {
+          background-color: #00acee;
+        }
+      }
+
+      li:nth-child(3) {
+        a {
+          background-color: #FF0000;
+        }
+      }
+
+      li:nth-child(4) {
+        a {
+          background-color: #CC339E;
+        }
+      }
+
+      li:nth-child(5) {
+        a {
+          background-color: #0072b1;
+        }
+      }
+    }
+  }
+
+  .contact {
+    ul {
+      li {
+        color: $white;
+        margin-bottom: 20px;
+
+        strong {
+          font-size: 18px;
+        }
+      }
+
+      li:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .links {
+    margin-left: 60px;
+
+    ul {
+      li {
+        margin-bottom: 15px;
+
+        a {
+          color: $white;
+          transition: all linear .2s;
+          text-transform: capitalize;
+          font-size: 16px;
+
+          &:hover {
+            color: $themeColor;
+          }
+        }
+      }
+
+      li:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .open {
+    .time {
+      .image {
+        width: 74px;
+        height: 74px;
+        background-color: $themeColor;
+        text-align: center;
+        line-height: 74px;
+        border-radius: 4px;
+        margin-right: 14px;
+      }
+
+      .text {
+        align-self: center;
+
+        ul {
+          li {
+            font-size: 16px;
+            font-weight: 600;
+            color: $white;
+          }
+        }
+      }
+    }
+
+    .payment {
+      padding-top: 30px;
+    }
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding-top: 20px;
+    margin-top: 60px;
+
+    p {
+      color: $white;
+
+      span {
+        color: $themeColor;
+      }
+
+      a {
+        color: $themeColor;
+      }
+    }
+  }
+}

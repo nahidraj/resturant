@@ -1,0 +1,39 @@
+@import "../variable/color";
+
+.faq-page {
+  padding: 100px 0;
+
+  .faq-body {
+    background: $white;
+    padding: 60px;
+    border-radius: 30px;
+
+    .accordion-button:focus {
+      box-shadow: none;
+    }
+
+    .accordion-item {
+      border: 0;
+      margin: 10px 0;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: transparent;
+      box-shadow: none;
+      color: $secondaryColor;
+    }
+
+    .accordion-button {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .accordion-button::after {
+      background-image: url(../images/plus-solid.svg);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+      background-image: url(../images/dash-lg.svg);
+    }
+  }
+}

@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, content=user-scalable=yes, initial-scale=1.0, maximum-scale=5, minimum-scale=1.0">
+  <title>Restaurant</title>
+  </title>
+  <!-- all css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="icons/bootstrap-icons-1.9.1/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- all css file -->
+</head>
+
+<body>
+  <!-- navbar part start -->
+  <div class="top-header d-none d-xl-block">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="images/n-logo-1.png" alt="logo" width="240">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+            <ul>
+              <li><a href="">Recipe Menu</a></li>
+              <li><a href="">Reservation Form</a></li>
+              <li><a href="">History</a></li>
+              <li><a href="">Team</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Shop</a>
+            <ul>
+              <li><a href="">Shop List</a></li>
+              <li><a href="">Shop Sidebar</a></li>
+              <li><a href="">Shop Detail</a></li>
+              <li><a href="">Shop Cart</a></li>
+              <li><a href="">Shop Checkout</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex position-relative" role="search">
+          <input class="form-control me-2 shadow-none" type="search" placeholder="Enter your search"
+            aria-label="Search">
+          <button class="btn position-absolute border-0" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+      <div class="aside-box">
+        <div class="aside-overlay"></div>
+        <aside>
+          <div class="close"><i class="bi bi-x"></i></div>
+          <div class="cart-title">
+            <h3>CART ITEMS - <span>4</span></h3>
+          </div>
+          <div class="cart-body">
+            <div class="product-item">
+              <div class="image">
+                <img src="images/cart-img_01.jpg" alt="cart-img_01" class="img-fluid" width="70">
+              </div>
+              <div class="text">
+                <a href=""> Rorem ipsum dolor sit amet.</a>
+                <span>$19.00</span>
+              </div>
+              <div class="remove">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="image">
+                <img src="images/cart-img_02.jpg" alt="cart-img_02" class="img-fluid" width="70">
+              </div>
+              <div class="text">
+                <a href=""> Rorem ipsum dolor sit amet.</a>
+                <span>$19.00</span>
+              </div>
+              <div class="remove">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="image">
+                <img src="images/cart-img_03.jpg" alt="cart-img_03" class="img-fluid" width="70">
+              </div>
+              <div class="text">
+                <a href=""> Rorem ipsum dolor sit amet.</a>
+                <span>$19.00</span>
+              </div>
+              <div class="remove">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="image">
+                <img src="images/cart-img_04.jpg" alt="cart-img_04" class="img-fluid" width="70">
+              </div>
+              <div class="text">
+                <a href=""> Rorem ipsum dolor sit amet.</a>
+                <span>$19.00</span>
+              </div>
+              <div class="remove">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="cart-footer">
+            <div class="footer-title">
+              <ul class="d-flex justify-content-between flex-wrap">
+                <li class="sub-total">SUB TOTAL:</li>
+                <li class="price">$87.00</li>
+              </ul>
+            </div>
+            <div class="footer-button">
+              <ul class="d-flex justify-content-between flex-wrap">
+                <li><a href="">View Cart</a></li>
+                <li><a href="" class="active-button">Checkout</a></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </nav>
+  </div>
+  <!-- navbar part end -->
+  <!-- mobile menu part start -->
+  <section class="mobile-menu d-block d-xl-none">
+    <div class="mobile-topbar">
+      <div class="container-fluid">
+        <div class="topbar-main d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <img src="images/n-logo-1.png" alt="n-logo-1" class="img-fluid" width="220">
+          </div>
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+    <div class="mobile-menu-main">
+      <div class="close-m-menu"><i class="bi bi-x"></i></div>
+      <div class="menu-body">
+        <div class="action">
+          <ul>
+            <li class="cart d-inline-block"><a href=""><i class="bi bi-basket"></i> <sup>04</sup></a></li>
+            <li class="wishlist d-inline-block"><a href=""><i class="bi bi-heart"></i> <sup>10</sup></a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <form action="">
+            <div class="input-groups position-relative">
+              <input type="text" placeholder="Enter your search">
+              <button type="submit" class="position-absolute"><i class="bi bi-search"></i></button>
+            </div>
+          </form>
+        </div>
+        <div class="menu-list">
+          <ul>
+            <li class="sub-menu">
+              <a href="#">Home</a>
+            </li>
+            <li class="sub-menu">
+              <a href="#">About Us</a>
+            </li>
+            <li class="sub-menu"><a href="#">Pages <i class="bi bi-chevron-down float-end"></i></a>
+              <ul style="display: none;">
+                <li><a href="">Recipe Menu</a></li>
+                <li><a href="">Reservation Form</a></li>
+                <li><a href="">History</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu"><a href="#">Shop <i class="bi bi-chevron-down float-end"></i></a>
+              <ul style="display: none;">
+                <li><a href="">Shop List</a></li>
+                <li><a href="">Shop Sidebar</a></li>
+                <li><a href="">Shop Details</a></li>
+                <li><a href="">Shop Cart</a></li>
+                <li><a href="">Shop Checkout</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu"><a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- mobile menu part end -->
+  <!-- bread crumb part start -->
+  <section class="bread-crumb">
+    <div class="bread-crumb-bg" style="background: url(images/breadcrumb-bg.png);">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="text">
+              <h1>SHOP SIDEBAR</h1>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                  ONLINE SHOP</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="image text-end">
+              <img src="images/breadcrumb-img.png" alt="breadcrumb-img" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- bread crumb part end -->
+
+  <!-- shop list part start -->
+  <section class="shop-list">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-0 col-xl-3">
+          <div class="shop-sidebar-action d-block d-xl-none">
+            <span><i class="bi bi-sliders"></i> Options </span>
+          </div>
+          <div class="shop-sidebar">
+            <div class="close-shop-sidebar d-block d-xl-none">
+              <i class="bi bi-x"></i>
+            </div>
+            <div class="sidebar-item">
+              <h4>SEARCH HERE</h4>
+              <form action="">
+                <div class="input-groups position-relative">
+                  <input type="text" placeholder="Search">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </div>
+              </form>
+            </div>
+            <div class="sidebar-item">
+              <h4>CATEGORIES</h4>
+              <div class="categories">
+                <ul>
+                  <li><a class="d-block" href="">Burger <span class="float-end">10</span></a></li>
+                  <li><a class="d-block" href="">2x Pizza <span class="float-end">10</span></a></li>
+                  <li><a class="d-block" href="">Cold Drinks <span class="float-end">10</span></a></li>
+                  <li><a class="d-block" href="">Chicken <span class="float-end">10</span></a></li>
+                  <li><a class="d-block" href="">Stuck Dish <span class="float-end">10</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <h4>PRICE FILTER</h4>
+              <div class="slider-range">
+                <div class="price-input">
+                  <div class="field">
+                    <input type="text" class="input-min" value="0">
+                  </div>
+                  <div class="field">
+                    <input type="text" class="input-max text-end" value="10000">
+                  </div>
+                </div>
+                <div class="slider">
+                  <div class="progress"></div>
+                </div>
+                <div class="range-input">
+                  <input type="range" class="range-min" min="0" max="10000" value="0" step="10">
+                  <input type="range" class="range-max" min="0" max="10000" value="10000" step="10">
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-item">
+              <h4>TOP PRODUCT</h4>
+              <div class="top-product">
+                <ul>
+                  <li>
+                    <a href="" class="d-flex w-100">
+                      <div class="img">
+                        <img src="images/sb_01.jpg" alt="sb_01">
+                      </div>
+                      <div class="text">
+                        <div class="icon">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p>Vagitable Roll</p>
+                        <h5>$53.00 <span>$75.00</span></h5>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="d-flex w-100">
+                      <div class="img">
+                        <img src="images/sb_02.jpg" alt="sb_02">
+                      </div>
+                      <div class="text">
+                        <div class="icon">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p>Top Burger Kning</p>
+                        <h5>$53.00 <span>$75.00</span></h5>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="d-flex w-100">
+                      <div class="img">
+                        <img src="images/sb_03.jpg" alt="sb_03">
+                      </div>
+                      <div class="text">
+                        <div class="icon">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p>Chicken fry</p>
+                        <h5>$53.00 <span>$75.00</span></h5>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="d-flex w-100">
+                      <div class="img">
+                        <img src="images/sb_03.jpg" alt="sb_03">
+                      </div>
+                      <div class="text">
+                        <div class="icon">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p>Vagitable Roll</p>
+                        <h5>$53.00 <span>$75.00</span></h5>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-xl-9">
+          <div class="shop-main">
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <span class="badges">10% off</span>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_01.png" alt="pd-img_01" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <span class="badges">New</span>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_02.png" alt="pd-img_02" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_03.png" alt="pd-img_03" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <span class="badges">10% off</span>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_04.png" alt="pd-img_04" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <span class="badges">New</span>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_05.png" alt="pd-img_05" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_06.png" alt="pd-img_06" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <span class="badges">10% off</span>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_01.png" alt="pd-img_01" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <span class="badges">New</span>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_02.png" alt="pd-img_02" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_03.png" alt="pd-img_03" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <span class="badges">10% off</span>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_04.png" alt="pd-img_04" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <span class="badges">New</span>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_05.png" alt="pd-img_05" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="dishes-item">
+                  <div class="img text-center">
+                    <div class="price-cart">
+                      <ul>
+                        <li><a href=""><i class="bi bi-basket"></i></a></li>
+                        <li><a href=""><i class="bi bi-heart"></i></a></li>
+                        <li><a href=""><i class="far fa-eye"></i></a></li>
+                      </ul>
+                    </div>
+                    <a href="" class="d-block w-100">
+                      <!-- image size 270 * 170 px -->
+                      <img src="images/pd-img_06.png" alt="pd-img_06" class="img-fluid">
+                    </a>
+                  </div>
+                  <div class="text">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                      <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <a href="">UNLIMITED CHICKEN FRY</a>
+                    <div class="price">
+                      <span>Price - </span>
+                      <span class="new">$53.00</span>
+                      <span class="old">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="pagination d-flex justify-content-end text-end">
+                  <ul>
+                    <li class="arrow">
+                      <a href="#"><i class="bi bi-arrow-left"></i></a>
+                    </li>
+                    <li class="mid-pagi">
+                      <a href="#"><span>2</span></a>
+                      <a href="#" class="active"><span>3</span></a>
+                      <a href="#"><span>4</span></a>
+                      <a href="#"><span>5</span></a>
+                      <a href="#"><span>6</span></a>
+                      <a href="#"><span>7</span></a>
+                    </li>
+                    <li class="arrow">
+                      <a href="#"><i class="bi bi-arrow-right"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- shop list part end -->
+
+
+  <!-- back to top button start -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- back to top button end -->
+  <!-- footer part start -->
+  <footer>
+    <div class="footer-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-about">
+              <div class="footer-title">
+                <h4>ABOUT salt n spice</h4>
+              </div>
+              <p>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+              </p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="contact">
+              <div class="footer-title">
+                <h4>CONTACT US</h4>
+              </div>
+              <ul>
+                <li><strong>Address:</strong> 8638 Amarica Stranfod Mailbon Star</li>
+                <li><strong>EMAIL:</strong> support@example.com</li>
+                <li><strong>PHONE:</strong> +7464 0187 3535 645</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="links">
+              <div class="footer-title">
+                <h4>links</h4>
+              </div>
+              <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">shop</a></li>
+                <li><a href="">faq</a></li>
+                <li><a href="">contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="open">
+              <div class="footer-title">
+                <h4>information</h4>
+              </div>
+              <div class="time d-flex flex-wrap">
+                <div class="image">
+                  <img src="images/time.png" alt="time">
+                </div>
+                <div class="text">
+                  <ul>
+                    <li>Mon - Sat (8:00 - 6:00)</li>
+                    <li>Sunday - Closed</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="payment">
+                <img class="img-fluid w-100" src="images/payment.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="copyright">
+                <p>© 2022 All rights reserved by <span>FRUDBAZ</span></p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="branding text-end">
+                <p>Developed by: <span><a href="">Nogor Solutions Limited</a></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer part end -->
+
+  <!-- all script file -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/isotop-activate.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/back-to-top.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/price-range.js"></script>
+  <script src="js/script.js"></script>
+  <!-- all script file -->
+</body>
+
+</html>

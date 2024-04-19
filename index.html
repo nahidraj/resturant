@@ -1,0 +1,2095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, content=user-scalable=yes, initial-scale=1.0, maximum-scale=5, minimum-scale=1.0">
+  <title>Restaurant</title>
+  </title>
+  <!-- all css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="icons/bootstrap-icons-1.9.1/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- all css file -->
+</head>
+
+<body>
+  <!-- navbar part start -->
+  <div class="top-header d-none d-xl-block">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="images/n-logo-1.png" alt="logo" width="240">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+            <ul>
+              <li><a href="">Recipe Menu</a></li>
+              <li><a href="">Reservation Form</a></li>
+              <li><a href="">History</a></li>
+              <li><a href="">Team</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+            <ul>
+              <li><a href="">Shop List</a></li>
+              <li><a href="">Shop Sidebar</a></li>
+              <li><a href="">Shop Detail</a></li>
+              <li><a href="">Shop Cart</a></li>
+              <li><a href="">Shop Checkout</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex position-relative" role="search">
+          <input class="form-control me-2 shadow-none" type="search" placeholder="Enter your search"
+            aria-label="Search">
+          <button class="btn position-absolute border-0" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+      <div class="aside-box">
+        <div class="aside-overlay"></div>
+        <aside>
+          <div class="close"><i class="bi bi-x"></i></div>
+          <div class="cart-title">
+            <h3>CART ITEMS - <span>4</span></h3>
+          </div>
+          <div class="cart-body">
+            <div class="product-item">
+              <div class="image">
+                <img src="images/cart-img_01.jpg" alt="cart-img_01" class="img-fluid" width="70">
+              </div>
+              <div class="text">
+                <a href=""> Rorem ipsum dolor sit amet.</a>
+                <span>$19.00</span>
+              </div>
+              <div class="remove">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="image">
+                <img src="images/cart-img_02.jpg" alt="cart-img_02" class="img-fluid" width="70">
+              </div>
+              <div class="text">
+                <a href=""> Rorem ipsum dolor sit amet.</a>
+                <span>$19.00</span>
+              </div>
+              <div class="remove">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="image">
+                <img src="images/cart-img_03.jpg" alt="cart-img_03" class="img-fluid" width="70">
+              </div>
+              <div class="text">
+                <a href=""> Rorem ipsum dolor sit amet.</a>
+                <span>$19.00</span>
+              </div>
+              <div class="remove">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="image">
+                <img src="images/cart-img_04.jpg" alt="cart-img_04" class="img-fluid" width="70">
+              </div>
+              <div class="text">
+                <a href=""> Rorem ipsum dolor sit amet.</a>
+                <span>$19.00</span>
+              </div>
+              <div class="remove">
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="cart-footer">
+            <div class="footer-title">
+              <ul class="d-flex justify-content-between flex-wrap">
+                <li class="sub-total">SUB TOTAL:</li>
+                <li class="price">$87.00</li>
+              </ul>
+            </div>
+            <div class="footer-button">
+              <ul class="d-flex justify-content-between flex-wrap">
+                <li><a href="">View Cart</a></li>
+                <li><a href="" class="active-button">Checkout</a></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </nav>
+  </div>
+  <!-- navbar part end -->
+  <!-- mobile menu part start -->
+  <section class="mobile-menu d-block d-xl-none">
+    <div class="mobile-topbar">
+      <div class="container-fluid">
+        <div class="topbar-main d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <img src="images/n-logo-1.png" alt="n-logo-1" class="img-fluid" width="220">
+          </div>
+          <div class="icon">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+    <div class="mobile-menu-main">
+      <div class="close-m-menu"><i class="bi bi-x"></i></div>
+      <div class="menu-body">
+        <div class="action">
+          <ul>
+            <li class="cart d-inline-block"><a href=""><i class="bi bi-basket"></i> <sup>04</sup></a></li>
+            <li class="wishlist d-inline-block"><a href=""><i class="bi bi-heart"></i> <sup>10</sup></a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <form action="">
+            <div class="input-groups position-relative">
+              <input type="text" placeholder="Enter your search">
+              <button type="submit" class="position-absolute"><i class="bi bi-search"></i></button>
+            </div>
+          </form>
+        </div>
+        <div class="menu-list">
+          <ul>
+            <li class="sub-menu">
+              <a href="#">Home</a>
+            </li>
+            <li class="sub-menu">
+              <a href="#">About Us</a>
+            </li>
+            <li class="sub-menu"><a href="#">Pages <i class="bi bi-chevron-down float-end"></i></a>
+              <ul style="display: none;">
+                <li><a href="">Recipe Menu</a></li>
+                <li><a href="">Reservation Form</a></li>
+                <li><a href="">History</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu"><a href="#">Shop <i class="bi bi-chevron-down float-end"></i></a>
+              <ul style="display: none;">
+                <li><a href="">Shop List</a></li>
+                <li><a href="">Shop Sidebar</a></li>
+                <li><a href="">Shop Details</a></li>
+                <li><a href="">Shop Cart</a></li>
+                <li><a href="">Shop Checkout</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu"><a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- mobile menu part end -->
+  <!-- banner part start -->
+  <section class="banner">
+    <div class="banner-body">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="left-side">
+            <div class="row">
+              <div class="col-lg-6 col-xl-5 col-md-6 btm-order align-self-center">
+                <div class="text">
+                  <h6>Medium 2-topping* Burger</h6>
+                  <h1>ARE YOU HUNGRY?</h1>
+                  <p>As well known and we are very busy all days advice you. advice you to call us of before arriving.
+                  </p>
+                  <div class="button">
+                    <a href="">Learn More</a>
+                    <a href="" class="active-button">See Our Menu</a>
+                  </div>
+                  <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i> <span>facebook</span></a>
+                    <a href=""><i class="fab fa-twitter"></i> <span></span>twitter</a>
+                    <a href=""><i class="fab fa-linkedin"></i> <span>linkedin</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-6 col-md-6 top-order ms-xl-auto align-self-center">
+                <div class="image">
+                  <!-- image size 650 * 650 px -->
+                  <img src="images/1.jpg" alt="banner-image-1" class="img-fluid w-100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 align-self-center">
+          <div class="right-side">
+            <div class="info-list">
+              <ul class="text-end">
+                <li>
+                  <h5>GREAT LOCATION</h5>
+                  <p>Rorem ipsum dolor sit amet, etur advoluptatem voluptatem</p>
+                  <div class="count">
+                    <span>01</span>
+                  </div>
+                </li>
+                <li>
+                  <h5>NATURE FIRST</h5>
+                  <p>Rorem ipsum dolor sit amet, etur advoluptatem voluptatem</p>
+                  <div class="count">
+                    <span>02</span>
+                  </div>
+                </li>
+                <li>
+                  <h5>HEALTHY FOOD</h5>
+                  <p>Rorem ipsum dolor sit amet, etur advoluptatem voluptatem</p>
+                  <div class="count">
+                    <span>03</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="video text-end">
+              <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
+                <span>Play Video</span>
+                <span><i class="bi bi-play-fill"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner part end -->
+  <!-- menu part start -->
+  <section class="menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="common-title text-center">
+            <h6>Choose and Try</h6>
+            <h2>FROM OUR MENU</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="menu-heading text-center">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one"
+                  type="button" role="tab" aria-controls="pills-one" aria-selected="true">
+                  <i class="fas fa-glass-cheers"></i>
+                  <!-- <img src="images/m_icon_01-1.png" alt="m_icon_01-1" class="img-fluid"> -->
+                  <h4>DRINKS</h4>
+                </button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two"
+                  type="button" role="tab" aria-controls="pills-two" aria-selected="false">
+                  <i class="fas fa-cookie-bite"></i>
+                  <!-- <img src="images/m_icon_02-2.png" alt="m_icon_02-2" class="img-fluid"> -->
+                  <h4>STACK</h4>
+                </button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three"
+                  type="button" role="tab" aria-controls="pills-three" aria-selected="false">
+                  <i class="fas fa-hamburger"></i>
+                  <!-- <img src="images/m_icon_03-1.png" alt="m_icon_03-1" class="img-fluid"> -->
+                  <h4>BURGER</h4>
+                </button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-four-tabs" data-bs-toggle="pill" data-bs-target="#pills-four"
+                  type="button" role="tab" aria-controls="pills-four" aria-selected="false">
+                  <i class="fas fa-drumstick-bite"></i>
+                  <!-- <img src="images/m_icon_04-4.png" alt="m_icon_04-4" class="img-fluid"> -->
+                  <h4>CHICKEN</h4>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-five-tabs" data-bs-toggle="pill" data-bs-target="#pills-five"
+                  type="button" role="tab" aria-controls="pills-five" aria-selected="false">
+                  <i class="fas fa-cheese"></i>
+                  <!-- <img src="images/m_icon_05-5.png" alt="m_icon_05-5" class="img-fluid"> -->
+                  <h4>COMBO</h4>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-six-tabs" data-bs-toggle="pill" data-bs-target="#pills-six"
+                  type="button" role="tab" aria-controls="pills-six" aria-selected="false">
+                  <i class="fas fa-pizza-slice"></i>
+                  <!-- <img src="images/m_icon_06-6.png" alt="m_icon_06-6" class="img-fluid"> -->
+                  <h4>PIZZA</h4>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="menu-details">
+            <div class="tab-content" id="pills-tabContent">
+
+              <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab"
+                tabindex="0">
+                <div class="recipe-body">
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_01.png" alt="rm_01" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_02.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_03.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_04.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_05.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab" tabindex="0">
+                <div class="recipe-body">
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_01.png" alt="rm_01" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_02.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_03.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_04.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_05.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab"
+                tabindex="0">
+                <div class="recipe-body">
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_01.png" alt="rm_01" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_02.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_03.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_04.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_05.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tabs" tabindex="0">
+                <div class="recipe-body">
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_01.png" alt="rm_01" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_02.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_03.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_04.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_05.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tabs" tabindex="0">
+                <div class="recipe-body">
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_01.png" alt="rm_01" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_02.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_03.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_04.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_05.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-six-tabs" tabindex="0">
+                <div class="recipe-body">
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_01.png" alt="rm_01" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_02.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_03.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_04.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="recipe_item">
+                    <div class="row">
+                      <div class="col-lg-6 align-self-center col-md-5">
+                        <div class="text">
+                          <a href="">AMARICANO FAST FOOD</a>
+                          <p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut
+                            laborey.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 align-self-center col-md-3 ms-auto">
+                        <div class="price-cart text-center">
+                          <div class="price">
+                            <h5>$25.00 <span>$48</span></h5>
+                          </div>
+                          <ul>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-basket"></i></a>
+                            </li>
+                            <li class="d-inline-block">
+                              <a href=""><i class="bi bi-heart"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 align-self-center col-md-3">
+                        <div class="img text-end">
+                          <!-- image size 135px width only -->
+                          <img src="images/rm_05.png" alt="rm_02" class="img-fluid" width="120">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="button">
+            <a href="">Load More Recipe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- menu part end -->
+  <!-- special offer part start -->
+  <section class="special-offer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 align-self-center">
+          <div class="offer-text">
+            <div class="common-title text-start">
+              <h6>Special Offer</h6>
+              <h2>GOOD FOOD, DRINKS & GREAT COMPANY.</h2>
+            </div>
+            <p>As well known and we are very busy all days advice you. advice you to call us of before arriving, so we
+              can
+              guarantee your seat. advice you to call us of before arriving As well known and we are very busy all days
+              advice you
+            </p>
+            <div class="button">
+              <ul class="d-flex flex-wrap align-self-center">
+                <li><a href="">ORDER NOW</a></li>
+                <li>
+                  <h3>$46.99 <span>$59.99</span></h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 align-self-center">
+          <div class="offer-image">
+            <!-- image size 636 * 636 px -->
+            <img src="images/offer_img.png" alt="offer_img" class="img-fluid w-100">
+            <div class="discount">
+              <!-- image size 112 * 110 px -->
+              <div class="off-image">
+                <img src="images/d_img.png" alt="">
+                <span>50</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- special offer part end -->
+  <!-- popular dishes part start -->
+  <section class="popular-dishes">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="common-title text-center">
+            <h6>Popular dishes</h6>
+            <h2>POPULAR DISHES</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="dishes-menu">
+            <ul>
+              <li>
+                <button class="active" data-filter="*">all categories</button>
+                <button data-filter=".cart1">Pizza</button>
+                <button data-filter=".cart2">Burger</button>
+                <button data-filter=".cart3">Blueberry Shake</button>
+                <button data-filter=".cart4">Chicken Chup</button>
+                <button data-filter=".cart5">Ice Cream</button>
+                <button data-filter=".cart6">Drink</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="popular-dishes-main">
+        <div class="row popular-dishes-container">
+          <div class="col-lg-4 col-sm-6 isotop cart1 cart5 cart3">
+            <div class="dishes-item">
+              <div class="img text-center">
+                <div class="price-cart">
+                  <ul>
+                    <li><a href=""><i class="bi bi-basket"></i></a></li>
+                    <li><a href=""><i class="bi bi-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                  </ul>
+                </div>
+                <span class="badges">10% off</span>
+                <a href="" class="d-block w-100">
+                  <!-- image size 270 * 170 px -->
+                  <img src="images/pd-img_01.png" alt="pd-img_01" class="img-fluid">
+                </a>
+              </div>
+              <div class="text">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ul>
+                <a href="">UNLIMITED CHICKEN FRY</a>
+                <div class="price">
+                  <span>Price - </span>
+                  <span class="new">$53.00</span>
+                  <span class="old">$75.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 isotop cart2 cart4">
+            <div class="dishes-item">
+              <div class="img text-center">
+                <div class="price-cart">
+                  <ul>
+                    <li><a href=""><i class="bi bi-basket"></i></a></li>
+                    <li><a href=""><i class="bi bi-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                  </ul>
+                </div>
+                <span class="badges">New</span>
+                <a href="" class="d-block w-100">
+                  <!-- image size 270 * 170 px -->
+                  <img src="images/pd-img_02.png" alt="pd-img_02" class="img-fluid">
+                </a>
+              </div>
+              <div class="text">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ul>
+                <a href="">UNLIMITED CHICKEN FRY</a>
+                <div class="price">
+                  <span>Price - </span>
+                  <span class="new">$53.00</span>
+                  <span class="old">$75.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 isotop cart3 cart5">
+            <div class="dishes-item">
+              <div class="img text-center">
+                <div class="price-cart">
+                  <ul>
+                    <li><a href=""><i class="bi bi-basket"></i></a></li>
+                    <li><a href=""><i class="bi bi-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                  </ul>
+                </div>
+                <a href="" class="d-block w-100">
+                  <!-- image size 270 * 170 px -->
+                  <img src="images/pd-img_03.png" alt="pd-img_03" class="img-fluid">
+                </a>
+              </div>
+              <div class="text">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ul>
+                <a href="">UNLIMITED CHICKEN FRY</a>
+                <div class="price">
+                  <span>Price - </span>
+                  <span class="new">$53.00</span>
+                  <span class="old">$75.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 isotop cart4 cart6 cart2">
+            <div class="dishes-item">
+              <div class="img text-center">
+                <div class="price-cart">
+                  <ul>
+                    <li><a href=""><i class="bi bi-basket"></i></a></li>
+                    <li><a href=""><i class="bi bi-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                  </ul>
+                </div>
+                <span class="badges">10% off</span>
+                <a href="" class="d-block w-100">
+                  <!-- image size 270 * 170 px -->
+                  <img src="images/pd-img_04.png" alt="pd-img_04" class="img-fluid">
+                </a>
+              </div>
+              <div class="text">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ul>
+                <a href="">UNLIMITED CHICKEN FRY</a>
+                <div class="price">
+                  <span>Price - </span>
+                  <span class="new">$53.00</span>
+                  <span class="old">$75.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 isotop cart1 cart3 cart5">
+            <div class="dishes-item">
+              <div class="img text-center">
+                <div class="price-cart">
+                  <ul>
+                    <li><a href=""><i class="bi bi-basket"></i></a></li>
+                    <li><a href=""><i class="bi bi-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                  </ul>
+                </div>
+                <span class="badges">New</span>
+                <a href="" class="d-block w-100">
+                  <!-- image size 270 * 170 px -->
+                  <img src="images/pd-img_05.png" alt="pd-img_05" class="img-fluid">
+                </a>
+              </div>
+              <div class="text">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ul>
+                <a href="">UNLIMITED CHICKEN FRY</a>
+                <div class="price">
+                  <span>Price - </span>
+                  <span class="new">$53.00</span>
+                  <span class="old">$75.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 isotop cart2 cart6 cart3">
+            <div class="dishes-item">
+              <div class="img text-center">
+                <div class="price-cart">
+                  <ul>
+                    <li><a href=""><i class="bi bi-basket"></i></a></li>
+                    <li><a href=""><i class="bi bi-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                  </ul>
+                </div>
+                <a href="" class="d-block w-100">
+                  <!-- image size 270 * 170 px -->
+                  <img src="images/pd-img_06.png" alt="pd-img_06" class="img-fluid">
+                </a>
+              </div>
+              <div class="text">
+                <ul>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                  <li><i class="far fa-star"></i></li>
+                </ul>
+                <a href="">UNLIMITED CHICKEN FRY</a>
+                <div class="price">
+                  <span>Price - </span>
+                  <span class="new">$53.00</span>
+                  <span class="old">$75.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="button">
+            <a href="">SEE ALL PRODUCT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- popular dishes part end -->
+  <!-- reservation part start -->
+  <section class="reservation">
+    <div class="reservation-bg" style="background: url(images/researbation-bg.jpg);">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-xl-5 align-self-center">
+              <div class="book-text">
+                <h3>We Have Excellent Of Quality Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ting eusm tempor incididunt ut
+                  labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-6 ms-xl-auto align-self-center">
+              <div class="book-form">
+                <div class="heading text-center">
+                  <h5>Book Now</h5>
+                  <h2>Make A Reservation</h2>
+                  <p>You can call us directly at <span>(123) 456 7788</span></p>
+                </div>
+                <div class="form-body">
+                  <form action="#" method="post">
+                    <div class="row">
+                      <div class="col-lg-6 mb-4">
+                        <div class="input-groups position-relative">
+                          <span class="position-absolute"><i class="far fa-user"></i></span>
+                          <input type="text" class="form-control shadow-none" placeholder="Username">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mb-4">
+                        <div class="input-groups position-relative">
+                          <span class="position-absolute"><i class="far fa-envelope"></i></span>
+                          <input type="email" class="form-control shadow-none" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mb-4">
+                        <div class="input-groups position-relative">
+                          <span class="position-absolute"><i class="bi bi-telephone"></i></span>
+                          <input type="text" class="form-control shadow-none" placeholder="Phone">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mb-4">
+                        <div class="input-groups position-relative">
+                          <span class="position-absolute"><i class="fas fa-users"></i></span>
+                          <input type="text" class="form-control shadow-none" placeholder="2 Person">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mb-4">
+                        <div class="input-groups position-relative">
+                          <span class="position-absolute"><i class="far fa-calendar"></i></span>
+                          <input type="date" class="form-control shadow-none">
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mb-4">
+                        <div class="input-groups position-relative">
+                          <span class="position-absolute"><i class="far fa-clock"></i></span>
+                          <input type="text" class="form-control shadow-none" placeholder="07:00 AM">
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <textarea rows="3" placeholder="Special Message Write Here"
+                          class="form-control w-100 shadow-none rounded-0"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <button type="submit" class="btn btn-success btn-lg w-100 text-center mt-3">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- reservation part end -->
+  <!-- chefs part start -->
+  <section class="chefs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-8">
+          <div class="common-title text-start">
+            <h6>Professional Chefs</h6>
+            <h2>MEET OUR Chefs</h2>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-4 align-self-center">
+          <div class="button text-end">
+            <a href="">VIEW ALL Chefs</a>
+          </div>
+        </div>
+      </div>
+      <div class="chefs-main">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="chefs-item">
+              <div class="img text-center">
+                <!-- image size 312 * 312 px -->
+                <img src="images/chefs.jpg" alt="chefs-1" class="img-fluid">
+              </div>
+              <div class="text text-center">
+                <h5>RASALINA DE</h5>
+                <p>12 YEAR EXPERIENCE</p>
+                <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="chefs-item">
+              <div class="img text-center">
+                <!-- image size 312 * 312 px -->
+                <img src="images/chefs-2.png" alt="chefs-2" class="img-fluid">
+              </div>
+              <div class="text text-center">
+                <h5>RASALINA DE</h5>
+                <p>12 YEAR EXPERIENCE</p>
+                <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="chefs-item">
+              <div class="img text-center">
+                <!-- image size 312 * 312 px -->
+                <img src="images/chefs-3.png" alt="chefs-3" class="img-fluid">
+              </div>
+              <div class="text text-center">
+                <h5>RASALINA DE</h5>
+                <p>12 YEAR EXPERIENCE</p>
+                <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- chefs part end -->
+  <!-- testimonial part start -->
+  <section class="testimonial">
+    <div class="testi-body" style="background: url(images/testimonial_bg.jpg);">
+      <div class="row g-0">
+        <div class="col-lg-6 align-self-center">
+          <div class="text">
+            <div class="common-title text-center">
+              <h6>Testimonial</h6>
+              <h2>OUR CUSTOMER SAY</h2>
+            </div>
+            <div class="testi-slider">
+              <div class="slider-item">
+                <i class="fas fa-quote-right"></i>
+                <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in repree rahye.</p>
+                <div class="person">
+                  <div class="person-img">
+                    <img src="images/tm_author.png" alt="tm_author" class="img-fluid w-100">
+                  </div>
+                  <div class="person-text">
+                    <h4>Rasalina De Willamson</h4>
+                    <span>Founder & co</span>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item">
+                <i class="fas fa-quote-right"></i>
+                <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in repree rahye.</p>
+                <div class="person">
+                  <div class="person-img">
+                    <img src="images/tm_author.png" alt="tm_author" class="img-fluid w-100">
+                  </div>
+                  <div class="person-text">
+                    <h4>Rasalina De Willamson</h4>
+                    <span>Founder & co</span>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item">
+                <i class="fas fa-quote-right"></i>
+                <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in repree rahye.</p>
+                <div class="person">
+                  <div class="person-img">
+                    <img src="images/tm_author.png" alt="tm_author" class="img-fluid w-100">
+                  </div>
+                  <div class="person-text">
+                    <h4>Rasalina De Willamson</h4>
+                    <span>Founder & co</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- image size 960 * 789 px -->
+          <div class="image">
+            <img src="images/testimonial_img.jpg" alt="testimonial_img" class="img-fluid w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial part end -->
+  <!-- gallery part start -->
+  <section class="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="common-title text-center">
+            <h6>Our Gallery</h6>
+            <h2>explore our gallery</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-main">
+      <ul class="parent-container">
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-1.jpg" alt="gall-img-1" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-1.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-2.jpg" alt="gall-img-2" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-2.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-3.jpg" alt="gall-img-3" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-3.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-4.jpg" alt="gall-img-4" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-4.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-5.jpg" alt="gall-img-5" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-5.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-6.jpg" alt="gall-img-6" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-6.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-7.jpg" alt="gall-img-7" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-7.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-8.jpg" alt="gall-img-8" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-8.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-9.jpg" alt="gall-img-9" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-9.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+        <li>
+          <!-- image size 384 * 384 px -->
+          <img src="images/gall-img-10.jpg" alt="gall-img-10" class="img-fluid w-100">
+          <div class="overlay">
+            <a class="parent-container" href="images/gall-img-10.jpg">
+              <i class="bi bi-search"></i>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- gallery part end -->
+  <!-- back to top button start -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- back to top button end -->
+  <!-- footer part start -->
+  <footer>
+    <div class="footer-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-about">
+              <div class="footer-title">
+                <h4>ABOUT salt n spice</h4>
+              </div>
+              <p>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+              </p>
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="contact">
+              <div class="footer-title">
+                <h4>CONTACT US</h4>
+              </div>
+              <ul>
+                <li><strong>Address:</strong> 8638 Amarica Stranfod Mailbon Star</li>
+                <li><strong>EMAIL:</strong> support@example.com</li>
+                <li><strong>PHONE:</strong> +7464 0187 3535 645</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="links">
+              <div class="footer-title">
+                <h4>links</h4>
+              </div>
+              <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">shop</a></li>
+                <li><a href="">faq</a></li>
+                <li><a href="">contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="open">
+              <div class="footer-title">
+                <h4>information</h4>
+              </div>
+              <div class="time d-flex flex-wrap">
+                <div class="image">
+                  <img src="images/time.png" alt="time">
+                </div>
+                <div class="text">
+                  <ul>
+                    <li>Mon - Sat (8:00 - 6:00)</li>
+                    <li>Sunday - Closed</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="payment">
+                <img class="img-fluid w-100" src="images/payment.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="copyright">
+                <p>© 2022 All rights reserved by <span>FRUDBAZ</span></p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="branding text-end">
+                <p>Developed by: <span><a href="">Nogor Solutions Limited</a></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer part end -->
+
+  <!-- all script file -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/isotop-activate.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/back-to-top.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/price-range.js"></script>
+  <script src="js/script.js"></script>
+  <!-- all script file -->
+</body>
+
+</html>
